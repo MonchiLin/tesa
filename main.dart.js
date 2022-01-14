@@ -99128,17 +99128,17 @@ a.k(0,"id",r)
 s=B.aD.jk(a)
 A.a(this.cx,"channel").gzk().a.H(0,s)},
 yU(a){var s,r=A.db(B.d.al(Date.now()/1000,0),null)
-switch(a){case"1min":s=r-8640
+switch(a){case"1min":s=r-4320
 break
-case"5min":s=r-17280
+case"5min":s=r-8640
 break
-case"15min":s=r-25920
+case"15min":s=r-17280
 break
-case"30min":s=r-43200
+case"30min":s=r-25920
 break
-case"60min":s=r-172800
+case"60min":s=r-86400
 break
-case"1day":s=r-2592e3
+case"1day":s=r-864e3
 break
 default:s=r}return A.b([s,r],t.t)},
 uy(a){var s,r,q,p,o,n,m,l,k,j=this,i=j.a4,h=i.gl(i)
