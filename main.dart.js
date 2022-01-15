@@ -33451,9 +33451,9 @@ $.b_g().E(0,p)
 return A.D(null,r)}})
 return A.E($async$aGq,r)},
 bpV(a){if(a==="")return""
-return"https://api.hotsbit.com/"+(a[0]==="/"?B.c.a0(a,1,a.length):a)},
+return"https://api.hotsbit.com"+(a[0]==="/"?B.c.a0(a,1,a.length):a)},
 aJ6(a){if(a.length===0)return""
-return"https://api.hotsbit.com/coins/"+a.toUpperCase()+".png"},
+return"https://api.hotsbit.comcoins/"+a.toUpperCase()+".png"},
 x2(a){return A.bbY(B.aap.cN(B.cU.cN(a)).a)},
 mr(a){var s=a.split("/")
 return s[0].toLowerCase()+s[1].toLowerCase()},
@@ -95793,7 +95793,7 @@ $1(a){return A.b8J(A.b8j(a).am())},
 $S:634}
 A.a4g.prototype={}
 A.aCx.prototype={
-acm(){var s=A.bkD("https://api.hotsbit.com/",3e4,"application/x-www-form-urlencoded",A.z(t.N,t.z),5000,B.mq),r=new A.amp($,new A.Zr(A.b([],t.lC),new A.IE(),new A.IE(),new A.IE()),$,new A.am9(),!1)
+acm(){var s=A.bkD("https://api.hotsbit.com",3e4,"application/x-www-form-urlencoded",A.z(t.N,t.z),5000,B.mq),r=new A.amp($,new A.Zr(A.b([],t.lC),new A.IE(),new A.IE(),new A.IE()),$,new A.am9(),!1)
 r.Yj$=s
 r.Yk$=new A.ajN(A.b([],t.Hi))
 this.a=r
@@ -96043,7 +96043,7 @@ s.cu(0,null,t.v1).dy=A.a(b.V(t.IB).r.a,"_locale")
 return new A.a4x(new A.aRD(b),B.b5E,null)}}
 A.aRD.prototype={
 $0(){var s=$.bgj(),r=$.bdU(),q=$.bdV(),p=A.blM(),o=this.a,n=t.IB,m=A.Y(A.b([o.V(n).y,B.aaq,B.aav,B.aan],t.a9),!0,t.bh),l=A.b([$.b_p()],t.tc),k=o.V(n).f
-return A.b9q(new A.Hv("/",l,p,"Hostbit",s,A.a(o.V(n).r.a,"_locale"),m,k.d,!1,!0,r,q,null),!0,!0,!0,new A.aRC(),80,!0,100,0,B.b5N)},
+return A.b9q(new A.Hv("/",l,p,"Hotsbit",s,A.a(o.V(n).r.a,"_locale"),m,k.d,!1,!0,r,q,null),!0,!0,!0,new A.aRC(),80,!0,100,0,B.b5N)},
 $S:639}
 A.aRC.prototype={
 $0(){return B.aWL},
