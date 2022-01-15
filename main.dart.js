@@ -33451,9 +33451,9 @@ $.b_g().E(0,p)
 return A.D(null,r)}})
 return A.E($async$aGq,r)},
 bpV(a){if(a==="")return""
-return"https://apitest.hotsbit.com/"+(a[0]==="/"?B.c.a0(a,1,a.length):a)},
+return"https://api.hotsbit.com/"+(a[0]==="/"?B.c.a0(a,1,a.length):a)},
 aJ6(a){if(a.length===0)return""
-return"https://apitest.hotsbit.com/coins/"+a.toUpperCase()+".png"},
+return"https://api.hotsbit.com/coins/"+a.toUpperCase()+".png"},
 x2(a){return A.bbY(B.aap.cN(B.cU.cN(a)).a)},
 mr(a){var s=a.split("/")
 return s[0].toLowerCase()+s[1].toLowerCase()},
@@ -95793,7 +95793,7 @@ $1(a){return A.b8J(A.b8j(a).am())},
 $S:634}
 A.a4g.prototype={}
 A.aCx.prototype={
-acm(){var s=A.bkD("https://apitest.hotsbit.com/",3e4,"application/x-www-form-urlencoded",A.z(t.N,t.z),5000,B.mq),r=new A.amp($,new A.Zr(A.b([],t.lC),new A.IE(),new A.IE(),new A.IE()),$,new A.am9(),!1)
+acm(){var s=A.bkD("https://api.hotsbit.com/",3e4,"application/x-www-form-urlencoded",A.z(t.N,t.z),5000,B.mq),r=new A.amp($,new A.Zr(A.b([],t.lC),new A.IE(),new A.IE(),new A.IE()),$,new A.am9(),!1)
 r.Yj$=s
 r.Yk$=new A.ajN(A.b([],t.Hi))
 this.a=r
