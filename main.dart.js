@@ -109870,7 +109870,7 @@ a.k(0,"id",r)
 s=B.aJ.kW(a)
 A.a(this.cx,"channel").gwB().a.F(0,s)},
 Aw(a){var s,r=A.dy(B.d.aq(Date.now()/1000,0))
-switch(a){case"1min":s=r-4320
+switch(a){case"1min":s=r-172800
 break
 case"5min":s=r-8640
 break
@@ -114840,7 +114840,7 @@ q.d.$2(1,p)
 return A.z(null,r)}})
 return A.A($async$h4,r)},
 D(a,b){var s,r=this,q=null
-r.r.e.sj(0,A.b([new A.hv(A.p("markets_deposit",q),"resources/images/markets_deposit.png",q,new A.aBG()),new A.hv(A.p("markets_withdraw",q),"resources/images/markets_withdraw.png",q,new A.aBH()),new A.hv(A.p("markets_mine",q),"resources/images/markets_mine.png",q,new A.aBI()),new A.hv(A.p("markets_subscription",q)+"+1","resources/images/markets_subscription.png",q,new A.aBJ())],t.ov))
+r.r.e.sj(0,A.b([new A.hv(A.p("markets_deposit",q),"resources/images/markets_deposit.png",q,new A.aBG()),new A.hv(A.p("markets_withdraw",q),"resources/images/markets_withdraw.png",q,new A.aBH()),new A.hv(A.p("markets_mine",q),"resources/images/markets_mine.png",q,new A.aBI()),new A.hv(A.p("markets_subscription",q)+"+2","resources/images/markets_subscription.png",q,new A.aBJ())],t.ov))
 s=$.ee()
 return A.ek(r.FS(),s,new A.bW(new A.aBK(r,b),q),q,new A.bW(new A.aBL(r,b),q),!1,r.x,!1)},
 FS(){var s,r=null,q=$.e.m(),p=q.gq()
