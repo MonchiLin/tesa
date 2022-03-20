@@ -90,7 +90,7 @@
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
   <script>
-    var serviceWorkerVersion = '1506395916';
+    var serviceWorkerVersion = '4116035591';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
@@ -127,6 +127,17 @@
       }
 
     }
+
+    function PWAUnregister() {
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then(function (registrations) {
+          for (let registration of registrations) {
+            registration.unregister()
+          }
+        })
+      }
+    }
+
 
     function PWA() {
       if ('serviceWorker' in navigator) {
@@ -182,6 +193,7 @@
 
 
     IOSHacker()
+    PWAUnregister()
     loadMainDartJs()
 
   </script>
