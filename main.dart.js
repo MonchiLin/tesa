@@ -109864,13 +109864,13 @@ a.k(0,"id",r)
 s=B.aJ.kW(a)
 A.a(this.cx,"channel").gwB().a.F(0,s)},
 Aw(a){var s,r=A.dy(B.d.aq(Date.now()/1000,0))
-switch(a){case"1min":s=r-172800
+switch(a){case"1min":s=r-8640
 break
-case"5min":s=r-345600
+case"5min":s=r-17280
 break
-case"15min":s=r-864e3
+case"15min":s=r-25920
 break
-case"30min":s=r-1296e3
+case"30min":s=r-43200
 break
 case"60min":s=r-1728e3
 break
