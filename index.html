@@ -90,7 +90,7 @@
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
   <script>
-    var serviceWorkerVersion = '770873770';
+    var serviceWorkerVersion = '721897311';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
@@ -118,7 +118,7 @@
                 || (navigator.userAgent.includes("Mac") && "ontouchend" in document)
       }
 
-      if (isIOS() && parseInt(platform.os.version.split(".")[0]) >= 15) {
+      if (isIOS()) {
         HTMLCanvasElement.prototype.getContext = function (orig) {
           return function(type) {
             return type !== "webgl2" ? orig.apply(this, arguments) : null
